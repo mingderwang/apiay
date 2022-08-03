@@ -1,5 +1,5 @@
 export * from './core'
 const Sdk = {
-    ...module
+    ...module.exports
 }
 export default Sdk;

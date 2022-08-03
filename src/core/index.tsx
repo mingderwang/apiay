@@ -10,7 +10,7 @@ export function ping() {
     return 'pong';
   }
   
-  export const EmojiList = (props: { emojis: (boolean | React.Key | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | null | undefined)[] }) =>
+  export const EmojiList = (props: { emojis: any }) =>
     props.emojis.map((emoji: boolean | React.Key | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | null | undefined) => <div key={emoji}>{emoji}</div>);
   export const Emoji = (props: { title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; faces: any; fruits: any; animals: any; }) => (
     <div>
