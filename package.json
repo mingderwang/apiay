@@ -9,7 +9,7 @@
   "types": "dist/main.d.ts",
   "license": "MIT",
   "bin": {
-    "daapy": "src/cli.js"
+    "apiay": "src/cli.js"
   },
   "repository": {
     "type": "git",
