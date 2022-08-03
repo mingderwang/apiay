@@ -1,22 +1,12 @@
-# ts-esbuild-jest-microbundle template
+# apiay 
 
-> features:
-* typescript
-* jest
-* microbundle
-* esbuild
-
-
-# getting started
-
-* refer to https://esbuild.github.io/getting-started/
-* refer to https://typestrong.org/ts-node/docs/recipes/ava/
-
+> a protocol to pay api serivce per call by cryptocurrency
 
 # build
 
 ```
 yarn
-yarn test
 yarn build
+yarn test
+yarn publish
 ```
