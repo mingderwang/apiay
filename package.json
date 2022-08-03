@@ -1,6 +1,6 @@
 {
   "name": "apiay",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "protocol to pay api per call by crypto",
   "source": "src/main.tsx",
   "main": "dist/main.umd.js",
