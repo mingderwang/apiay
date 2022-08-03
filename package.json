@@ -1,6 +1,6 @@
 {
   "name": "apiay",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "protocol to pay api per call by crypto",
   "source": "src/main.tsx",
   "main": "dist/main.umd.js",
@@ -47,7 +47,6 @@
     "ava"
   ],
   "dependencies": {
-    "apiay": "^0.1.4",
     "preact": "^10.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
