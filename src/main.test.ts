@@ -1,4 +1,4 @@
-import { message, version, ping } from './main'
+import { message, version, ping, Counter } from './main'
 
 test('message is hello, world!', () => {
   expect(message).toBe('Hello, World!');
