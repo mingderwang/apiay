@@ -17,8 +17,8 @@
   },
   "scripts": {
     "build:test": "node ./scripts/build-test.js",
-    "build": "microbundle --define PKG_VERSION=$(npm show . version)",
-    "watch": "microbundle watch --define PKG_VERSION=$(npm show . version)",
+    "build": "microbundle --define PKG_VERSION=$(node ./scripts/showVersion.js)",
+    "watch": "microbundle watch --define PKG_VERSION=$(node ./scripts/showVersion.js)",
     "build:react": "yarn clean && node ./scripts/build.js",
     "build:node": "yarn clean && node ./scripts/build-node.js",
     "start": "node ./dist/app.js",
