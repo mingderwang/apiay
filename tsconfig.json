@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
     "target": "ES2015",
     "module": "CommonJS",
     "strict": true,
@@ -7,5 +9,6 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src/cli.ts"]
+  "include": ["src/**/*.tsx"],
+  "exclude": ["src/cli.js"]
 }
