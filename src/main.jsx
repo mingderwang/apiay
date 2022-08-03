@@ -23,8 +23,9 @@ export const App = props => (
   </div>
 );
 
-/*您還可以如下所示將道具一個接一個地傳遞給子組件，但這很可惜。 */
-/*通過使用Spread Attributes，只需編寫“ {... props}”，就可以將Props傳遞給子組件。 */
+/* 
+   You can defined your own App as follows;
+*/
 
 // const App = props => (
 //   <div>
@@ -40,5 +41,5 @@ export const App = props => (
 // );
 export const faces = ["😀", "😅", "🤔", "👻", "👺"];
 export const fruits = ["🍇", "🍈", "🍊"];
-export const animals = ["🐳", "🐉", "🦖"];
+export const animals = ["🐳", "🐉", "🐟"];
 
