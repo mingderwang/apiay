@@ -1,7 +1,13 @@
-import test from 'ava';
+import { message, version, ping } from './main'
 
-const fn = () => 'foo';
+test('message is hello, world!', () => {
+  expect(message).toBe('Hello, World!');
+});
 
-test('fn() returns foo', t => {
-	t.is(fn(), 'foo');
+test('current version', () => {
+  expect(version).toBe('PKG_VERSION');
+});
+
+test('ping/pong', () => {
+  expect(ping()).toBe('pong');
 });

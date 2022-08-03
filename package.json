@@ -1,8 +1,8 @@
 {
   "name": "apiay",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "protocol to pay api per call by crypto",
-  "source": "src/main.jsx",
+  "source": "src/main.tsx",
   "main": "dist/main.umd.js",
   "module": "dist/main.modern.module.js",
   "unpkg": "dist/main.umd.js",
@@ -25,7 +25,8 @@
     "test": "jest",
     "test:ava": "ava",
     "clean": "rimraf ./dist",
-    "release": "np"
+    "release": "np",
+    "fix": "cd node_modules && ln -s esbuild-wasm esbuild"
   },
   "engines": {
     "node": ">=14"
